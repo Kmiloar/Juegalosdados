@@ -1,0 +1,38 @@
+#cuerpo {
+    background-color: #7D8F69;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-family: 'Alfa Slab One', cursive;
+    color: #000;
+    letter-spacing: 3px;
+    padding: 1% 0;
+}
+
+.descripcion {
+    font-size: 1.2rem;
+    font-family: 'Merriweather', serif;
+}
+
+#juego {
+    padding-top: 1%;
+}
+
+main {
+    padding: 2% 20%;
+}
+
+img {
+    width: 40%;
+}
+
+.boton {
+    padding-top: 13%;
+}
+
+#reload{
+    text-decoration: none;
+    color: #EAEAEA;
+}
