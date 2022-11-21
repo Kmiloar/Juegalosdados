@@ -25,7 +25,7 @@ img2.setAttribute("src", imgFuente2);
 if (numAleatorio > numAleatorio2) {
     document.querySelector("h1").innerHTML = "🚩Ganó el jugador 1";
 } else if (numAleatorio2 > numAleatorio) {
-        document.querySelector("h1").innerHTML = "Ganó el jugador 2🚩";
+        document.querySelector("h1").innerHTML = "🚩Ganó el jugador 2";
     } else {
         document.querySelector("h1").innerHTML = "Empatados 😕";
     }
