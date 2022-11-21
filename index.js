@@ -27,7 +27,7 @@ if (numAleatorio > numAleatorio2) {
 } else if (numAleatorio2 > numAleatorio) {
         document.querySelector("h1").innerHTML = "Ganó el jugador 2🚩";
     } else {
-        document.querySelector("h1").innerHTML = "Vuelve a intentarlo 😕";
+        document.querySelector("h1").innerHTML = "Empatados 😕";
     }
 
 }
