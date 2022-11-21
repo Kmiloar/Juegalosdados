@@ -1,4 +1,6 @@
-//Jugador 1//
+function recargar() {
+
+    //Jugador 1//
 var numAleatorio = Math.floor(Math.random()*6)+1;
 
 var imgAleatorio = "dice" + numAleatorio + ".png";
@@ -21,9 +23,13 @@ var img2 = document.querySelectorAll("img")[1];
 img2.setAttribute("src", imgFuente2);
 
 if (numAleatorio > numAleatorio2) {
-    document.querySelector("h1").innerHTML = "🚩 Ganó el jugador 1 🚩";
+    document.querySelector("h1").innerHTML = "🚩Ganó el jugador 1";
 } else if (numAleatorio2 > numAleatorio) {
-        document.querySelector("h1").innerHTML = "🚩 Ganó el jugador 2 🚩";
+        document.querySelector("h1").innerHTML = "Ganó el jugador 2🚩";
     } else {
-        document.querySelector("h1").innerHTML = "😕 Vuelve a intentarlo 😕";
+        document.querySelector("h1").innerHTML = "Vuelve a intentarlo 😕";
     }
+
+}
+
+

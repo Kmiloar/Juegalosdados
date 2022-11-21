@@ -4,7 +4,7 @@
 }
 
 #title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-family: 'Alfa Slab One', cursive;
     color: #000;
     letter-spacing: 3px;
@@ -26,13 +26,4 @@ main {
 
 img {
     width: 40%;
-}
-
-.boton {
-    padding-top: 13%;
-}
-
-#reload{
-    text-decoration: none;
-    color: #EAEAEA;
 }
